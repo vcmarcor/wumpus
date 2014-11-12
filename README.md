@@ -1,0 +1,4 @@
+wumpus
+======
+
+Wumpus interview test

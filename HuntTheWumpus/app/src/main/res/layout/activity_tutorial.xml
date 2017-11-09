@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.vcmarcor.huntthewumpus.activity.TutorialActivity">
+
+    <TextView
+        android:id="@+id/tutorialMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/tutorialImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tutorialMessage"
+        android:layout_above="@id/buttonNextSlide"
+        android:layout_marginTop="@dimen/tutorial_image_margin" />
+
+    <Button
+        android:id="@+id/buttonPreviousSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/button_tutorial"
+        android:text="@string/back"
+        android:textColor="@color/button_tutorial_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonNextSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/button_tutorial"
+        android:text="@string/next"
+        android:textColor="@color/button_tutorial_text" />
+</RelativeLayout>

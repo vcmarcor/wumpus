@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="@dimen/main_menu_small_button_width"
+        android:layout_height="@dimen/main_menu_small_button_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/main_menu_margin_horizontal"
+        android:layout_marginVertical="@dimen/main_menu_margin_vertical"
+        android:background="@color/button_main_menu"
+        android:text="@string/settings"
+        android:textColor="@color/button_main_menu_text" />
+
+    <Button
+        android:id="@+id/buttonHowToPlay"
+        android:layout_width="@dimen/main_menu_small_button_width"
+        android:layout_height="@dimen/main_menu_small_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/main_menu_margin_horizontal"
+        android:layout_marginVertical="@dimen/main_menu_margin_vertical"
+        android:background="@color/button_main_menu"
+        android:text="@string/how_to_play"
+        android:textColor="@color/button_main_menu_text" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="@dimen/main_menu_new_game_width"
+        android:layout_height="@dimen/main_menu_new_game_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:width="@dimen/main_menu_new_game_width"
+        android:background="@color/button_main_menu"
+        android:text="@string/new_game"
+        android:textColor="@color/button_main_menu_text" />
+
+</RelativeLayout>

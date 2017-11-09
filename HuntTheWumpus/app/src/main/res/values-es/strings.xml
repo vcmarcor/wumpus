@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Hunt The Wumpus</string>
+
+    <!-- MainMenuActivity -->
+    <string name="settings">Ajustes</string>
+    <string name="how_to_play">Cómo jugar</string>
+    <string name="new_game">Nueva partida</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <!-- Settings -->
+    <string name="preference_map_width">Ancho del mapa</string>
+    <string name="preference_map_height">Altura del mapa</string>
+    <string name="preference_arrows">Número de flechas</string>
+
+    <!-- Toast messages -->
+    <string name="toast_map_width">El ancho del mapa debe ser como mínimo 3</string>
+    <string name="toast_map_height">La altura del mapa debe ser como mínimo 3</string>
+    <string name="toast_error_settings">Por favor, comprueba los ajustes</string>
+    <string name="toast_hit_wall">No te puedes mover en esa dirección, hay un muro</string>
+    <string name="toast_unexpected_error">Algo ha ido mal! Deberías de cerrar la aplicación</string>
+    <string name="toast_no_arrows">No te quedan flechas</string>
+
+    <!-- Perceptions -->
+    <string name="perception_well">Sientes una brisa</string>
+    <string name="perception_gold">Ves un brillo</string>
+    <string name="perception_wumpus">Puedes oler al Wumpus</string>
+
+    <!-- Buttons -->
+    <string name="up">ARIBA</string>
+    <string name="down">ABAJO</string>
+    <string name="left">IZQUIERDA</string>
+    <string name="right">DERECHA</string>
+    <string name="dhow_map">Mostrar mapa</string>
+    <string name="back">Atrás</string>
+    <string name="next">Siguiente</string>
+
+    <!-- TextViews -->
+    <string name="arrows_left">Flechas restantes</string>
+    <string name="total_movements">Movimientos totales</string>
+    <string name="needed_movements">Movimientos necesarios</string>
+
+    <!-- Alert dialogs -->
+    <string name="game_over">Fin del juego</string>
+    <string name="already_dead">Has muerto</string>
+    <string name="died_well">Has caido en un pozo y has muerto</string>
+    <string name="died_wumpus">El Wumpus the ha matado</string>
+    <string name="finish">Fin</string>
+    <string name="congratulations">Felicidades!</string>
+    <string name="gold_obtained">Has descubierto el oro, dirígete a la salida</string>
+    <string name="win_game">Has ganado!</string>
+    <string name="shoot_missed_title">Has fallado</string>
+    <string name="shoot_missed">La flecha golpea un muro</string>
+    <string name="shoot_killed">La flecha alcanza al Wumpus, está muerto</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_text1">En Hunt The Wumpus, tu objetivo es atravesar la mazmorra, descubrir dónde esta el oro, y salir con el.\n
+    Empezarás en la salida, y el resto de la mazmorra estará a oscuras (no podrás ver que hay enfrente de ti). La mazmorra está llena de peligros como los pozos
+    (si das un paso hacia el, caerás y morirás), y también está el Wumpus (un temible monstruo que te matará si coincides con el).\n
+    Mientras vas caminando por la mazmorra, percibirás los peligros a tu alrededor. Puedes sentir una brisa cuando hay un pozo cerca, o puedes oler al Wumpus.
+    También puedes ver un brillo cuando estás cerca del oro, a si que presta atención!\n
+    Puedes disparar una flecha (si tienes) para intentar matar al Wumpues, pero no las malgastes...</string>
+    <string name="tutorial_text2">Esta es la pantalla principal donde pedes controlarlo todo</string>
+    <string name="tutorial_text3">Este es el mini mapa, aquí puedes ver dónde estás, y que hay alrededor tuyo</string>
+    <string name="tutorial_text4">Esta celda azul te representa a ti en el mini mapa</string>
+    <string name="tutorial_text5">la celda verde representa la salida</string>
+    <string name="tutorial_text6">Las celdas blancas representan aquellas celdas que ya has descubierto (has caminado sobre ellas)</string>
+    <string name="tutorial_text7">Las celdas negras sin aquellas que todavía no has descubierto...</string>
+    <string name="tutorial_text8">Con este botón, puedes echar un vistazo al mapa completo para planear tu siguiente movimiento</string>
+    <string name="tutorial_text9">Esta es la vista del mapa completo, aquí puedes ver todas las celdas del mapa</string>
+    <string name="tutorial_text10">Puedes deslizar horizontalmente si el mapa es demasiado grande</string>
+    <string name="tutorial_text11">O bien verticalmente...</string>
+    <string name="tutorial_text12">Aquí puedes ver que puedes percibir a tu alrededor, asegurate de echarle un vistazo antes de moverte!</string>
+    <string name="tutorial_text13">Estos son los botones de movimiento, te puedes mover por el mapa usándolos</string>
+    <string name="tutorial_text14">Aquí tienes algo de información extra, indica el número mínimo de movimientos con el que se puede resolver el mapa</string>
+    <string name="tutorial_text15">Aquí se indica el número de movimientos que has realizado en la partida actual</string>
+    <string name="tutorial_text16">Con estos botones puedes disparar flechas en cualquier dirección</string>
+    <string name="tutorial_text17">Y aquí puedes ver el número de flechas que te quedan</string>
+</resources>

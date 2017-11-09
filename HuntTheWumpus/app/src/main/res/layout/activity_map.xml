@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/map_background"
+    android:fillViewport="true"
+    android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/map_margin"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/mapGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="true"
+            android:columnWidth="@dimen/map_cell_size"
+            android:horizontalSpacing="@dimen/map_cells_spacing"
+            android:nestedScrollingEnabled="false"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:stretchMode="none"
+            android:verticalSpacing="@dimen/map_cells_spacing" />
+
+    </LinearLayout>
+</HorizontalScrollView>

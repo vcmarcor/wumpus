@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Hunt The Wumpus</string>
+
+    <!-- MainMenuActivity -->
+    <string name="settings">Settings</string>
+    <string name="how_to_play">How yo play</string>
+    <string name="new_game">New game</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="preference_map_width">Map width</string>
+    <string name="preference_map_height">Map height</string>
+    <string name="preference_arrows">Number of arrows</string>
+
+    <!-- Toast messages -->
+    <string name="toast_map_width">The map width must be 3 or greater</string>
+    <string name="toast_map_height">The map height must be 3 or greater</string>
+    <string name="toast_error_settings">Please, check your current settings</string>
+    <string name="toast_hit_wall">You can\'t move on that direction, there is a wall</string>
+    <string name="toast_unexpected_error">Something went wrong! You should close the game</string>
+    <string name="toast_no_arrows">You have no arrows left</string>
+
+    <!-- Perceptions -->
+    <string name="perception_well">You feel a breeze</string>
+    <string name="perception_gold">You see a glow</string>
+    <string name="perception_wumpus">You smell the Wumpus</string>
+
+    <!-- Buttons -->
+    <string name="up">UP</string>
+    <string name="down">DOWN</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="dhow_map">Show map</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+
+    <!-- TextViews -->
+    <string name="arrows_left">Arrows left</string>
+    <string name="total_movements">Total movements</string>
+    <string name="needed_movements">Needed movements</string>
+
+    <!-- Alert dialogs -->
+    <string name="game_over">Game over</string>
+    <string name="already_dead">You are dead</string>
+    <string name="died_well">You fell into a well and died</string>
+    <string name="died_wumpus">The Wumpus killed you</string>
+    <string name="finish">Finish</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="gold_obtained">You discovered the gold, head to the exit</string>
+    <string name="win_game">You won!</string>
+    <string name="shoot_missed_title">Missed</string>
+    <string name="shoot_missed">Your arrow hit the wall</string>
+    <string name="shoot_killed">Your arrow hits the Wumpus, and it is dead</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_text1">In Hunt The Wumpus, your goal is to go through the dungeon, discover where the gold is, and take it to the exit.\n
+    You will start on the exit, and the rest of the dungeon will be dark (you can\'t see what you have in front of you). The dungeon is full of danger like wells
+        (if you step into one, you will fall and die), and there is also the Wumpus (a fearsome monster that will kill you if you run into its location).\n
+    As you walk trough the dungeon, you will perceive the dangers around you. You can fell a breeze when there is a well near by, or you can smell the Wumpus.
+    You can also see a glow when you are close to the gold, so pay attention!\n
+    You can shoot an arrow (if you have any) to try to kill the Wumpus, but don\'t waste your ammunition...</string>
+    <string name="tutorial_text2">This is the main screen where you can control everything</string>
+    <string name="tutorial_text3">This is the mini map, here you can see where are you, and what is around you</string>
+    <string name="tutorial_text4">This blue cell represents you on the mini map</string>
+    <string name="tutorial_text5">The green cell represents the map exit</string>
+    <string name="tutorial_text6">The white cells represents a map cell that you have already discovered before (you have walked trough it)</string>
+    <string name="tutorial_text7">The black cells aree the ones you have not discovered yet...</string>
+    <string name="tutorial_text8">With this button, you can take a look to the full map to plan your next move</string>
+    <string name="tutorial_text9">This is the full map view, here you can see all cells from the map</string>
+    <string name="tutorial_text10">You can slide horizontally if the map is too big</string>
+    <string name="tutorial_text11">And the same vertically...</string>
+    <string name="tutorial_text12">Here you can see what you can perceive around your position, be sure to check it before moving!</string>
+    <string name="tutorial_text13">These are the movement buttons, you can move trough the map using them</string>
+    <string name="tutorial_text14">Here is some extra information, this indicates the minimum required movements to complete this map</string>
+    <string name="tutorial_text15">This indicates the number of movements that you have done on the current game</string>
+    <string name="tutorial_text16">With these buttons you can shoot arrows in any direction</string>
+    <string name="tutorial_text17">And here you can see how many arrows you have left</string>
+</resources>

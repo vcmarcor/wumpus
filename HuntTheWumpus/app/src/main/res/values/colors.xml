@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="button_main_menu">#007ad8</color>
+    <color name="button_main_menu_text">#ffffff</color>
+    <color name="minimap_background">#b0b3b7</color>
+    <color name="minimap_discovered_cell">#ffffff</color>
+    <color name="minimap_not_discovered_cell">#000000</color>
+    <color name="minimap_player_position">#1c488e</color>
+    <color name="minimap_exit_position">#4d8c57</color>
+    <color name="map_background">#b0b3b7</color>
+    <color name="map_discovered_cell">#ffffff</color>
+    <color name="map_not_discovered_cell">#000000</color>
+    <color name="map_player_position">#1c488e</color>
+    <color name="map_exit_position">#4d8c57</color>
+    <color name="button_move">#004caf</color>
+    <color name="button_move_text">#ffffff</color>
+    <color name="button_shoot">#931717</color>
+    <color name="button_shoot_text">#ffffff</color>
+    <color name="button_show_map">#471313</color>
+    <color name="button_show_map_text">#ffffff</color>
+    <color name="button_tutorial">#007ad8</color>
+    <color name="button_tutorial_text">#ffffff</color>
+</resources>
